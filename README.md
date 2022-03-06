@@ -1,0 +1,2 @@
+# SzechenyiProjekt
+SzechenyiProjekt2022
