@@ -1,0 +1,66 @@
+html{
+    background-color: #f0f0f0;
+    background-image: url("/img/fp.jpg") cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+
+}
+
+.login-div{
+    padding:15px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0 2px #777;
+    display: inline-block; /* felveszi az elem tartalmát*/
+}
+
+.login-div input{
+    display: block; /* minden elem új sorba kerül*/
+    margin-bottom:7px; /*közel marad a label*/
+}
+
+/* ha szóközt használunk, akkor benne azt a divet használjuk, amelyik szerepel a bodyban*/
+body div.login-div{
+    padding:15px;
+    border: 1px solid #c0c0c0;
+    box-shadow: 0 0 2px #777;
+    display: inline-block; 
+}
+/*attributum szelektor
+.login-div input[type="email"]{
+    border:solid 1px blue;
+
+}
+.login-div input[name="password"]{
+    border:solid 1px red;
+
+}*/
+/*a keresett jelzővel kezdődik
+input[class*="blue"] 
+{
+    border:1px solid blue;
+}
+*/
+/*a keresett jelzővel végződik
+input[class $="red"]
+{
+    border:1px solid red;
+}*/
+.login-div button:hover{
+    box-shadow:2px 2px 3px #c0c0c0;
+    /*
+    box-shadow: 0 0 3px;
+   
+    */
+}
+.login-div input:focus{
+    box-shadow:2px 2px 3px #c0c0c0;
+    border:none;
+}
+ul li:last-child{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul li:first-child{
+    text-decoration: underline;
+}
+ul li:nth-child(2)
+{color:green}
