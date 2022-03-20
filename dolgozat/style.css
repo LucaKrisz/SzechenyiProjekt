@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "dexo";
+    src: url("fonts/DEXO.ttf");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "orange";
+    src: url("fonts/orange\ juice\ 2.0.ttf");
+}
+html{
+    background-color: #777;
+    background-image: url("Mosaic.webp");
+    background-repeat:repeat-y;
+    background-position: left top;
+
+}
+.login-div{
+    margin:2px 5px 2px 5px;
+    box-shadow: 2px 2px 12px #777;
+    display: inline-block;
+
+}
+
+.login-div input{
+    display: block;
+    margin: 7px;
+}
+.login-div label{
+    font-size: 36px;
+    color:  olivedrab;
+    font-family:"orange";
+    font-weight: 900;
+    padding-left: 5px;
+}
+h1{
+    font-family: "dexo";
+    font-size: 48px;
+}
+.login-div input[type="email"]{
+    border:solid 2px orange;
+    border-radius: 12px;
+
+}
+.login-div input[name="password"]{
+    border:solid 2px red;
+    border-radius: 12px;
+
+}
+.login-div button{
+    background-color: tomato;
+    border: 1px solid tomato;
+    box-shadow: 0 0 5px tan;
+    border-radius: 6px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: "dexo";
+}
+.login-div button:hover{
+    background-color: sandybrown;
+
+}
+input[type="radio"]
+{   
+    display: inline-block;
+}
+.login-div label[class="osztaly"]
+{  
+    font-size: 18px;
+    color: red;
+}
